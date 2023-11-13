@@ -1,0 +1,10 @@
+^U:\MEU DRIVE\4º PERIODO\CONCEPÇÃO DE VEÍCULOS ELÉTRICOS\CONCEPCAO-VEICULOS-INTELIGENTES\BUILD\CMAKEFILES\B7083A04293336786CD3388F9EAC413C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SU:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes" "-BU:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/Concepcao-veiculos-inteligentes.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

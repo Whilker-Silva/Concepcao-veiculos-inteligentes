@@ -1,0 +1,225 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versão do MSBuild 17.7.2+d6990bcfa para .NET Framework
+      Compilação de 13/11/2023 00:29:08 iniciada.
+      
+      Projeto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compilação pronto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.43
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versão do MSBuild 17.7.2+d6990bcfa para .NET Framework
+      Compilação de 13/11/2023 00:29:10 iniciada.
+      
+      Projeto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no nó 1 (destinos padrão).
+      PrepareForBuild:
+        Criando o diretório "Debug\\".
+        Criando o diretório "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compilação pronto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padrão).
+      
+      Compilação com êxito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "U:/Meu Drive/4\u00ba periodo/Concep\u00e7\u00e3o de ve\u00edculos el\u00e9tricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-j0kqp7"
+      binary: "U:/Meu Drive/4\u00ba periodo/Concep\u00e7\u00e3o de ve\u00edculos el\u00e9tricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-j0kqp7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-j0kqp7
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_34ce1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Versão do MSBuild 17.7.2+d6990bcfa para .NET Framework
+        Compilação de 13/11/2023 00:29:11 iniciada.
+        
+        Projeto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0kqp7\\cmTC_34ce1.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_34ce1.dir\\Debug\\".
+          Criando o diretório "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0kqp7\\Debug\\".
+          Criando o diretório "cmTC_34ce1.dir\\Debug\\cmTC_34ce1.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_34ce1.dir\\Debug\\cmTC_34ce1.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_34ce1.dir\\Debug\\cmTC_34ce1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34ce1.dir\\Debug\\\\" /Fd"cmTC_34ce1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.37.32825 para x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34ce1.dir\\Debug\\\\" /Fd"cmTC_34ce1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0kqp7\\Debug\\cmTC_34ce1.exe" /INCREMENTAL /ILK:"cmTC_34ce1.dir\\Debug\\cmTC_34ce1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-j0kqp7/Debug/cmTC_34ce1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-j0kqp7/Debug/cmTC_34ce1.lib" /MACHINE:X64  /machine:x64 cmTC_34ce1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_34ce1.vcxproj -> U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0kqp7\\Debug\\cmTC_34ce1.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_34ce1.dir\\Debug\\cmTC_34ce1.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_34ce1.dir\\Debug\\cmTC_34ce1.tlog\\cmTC_34ce1.lastbuildstate".
+        Projeto de compilação pronto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0kqp7\\cmTC_34ce1.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "U:/Meu Drive/4\u00ba periodo/Concep\u00e7\u00e3o de ve\u00edculos el\u00e9tricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-yarjoz"
+      binary: "U:/Meu Drive/4\u00ba periodo/Concep\u00e7\u00e3o de ve\u00edculos el\u00e9tricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-yarjoz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-yarjoz
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4024b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Versão do MSBuild 17.7.2+d6990bcfa para .NET Framework
+        Compilação de 13/11/2023 00:29:14 iniciada.
+        
+        Projeto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yarjoz\\cmTC_4024b.vcxproj" no nó 1 (destinos padrão).
+        PrepareForBuild:
+          Criando o diretório "cmTC_4024b.dir\\Debug\\".
+          Criando o diretório "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yarjoz\\Debug\\".
+          Criando o diretório "cmTC_4024b.dir\\Debug\\cmTC_4024b.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_4024b.dir\\Debug\\cmTC_4024b.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_4024b.dir\\Debug\\cmTC_4024b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4024b.dir\\Debug\\\\" /Fd"cmTC_4024b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Versão 19.37.32825 para x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4024b.dir\\Debug\\\\" /Fd"cmTC_4024b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yarjoz\\Debug\\cmTC_4024b.exe" /INCREMENTAL /ILK:"cmTC_4024b.dir\\Debug\\cmTC_4024b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-yarjoz/Debug/cmTC_4024b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/CMakeScratch/TryCompile-yarjoz/Debug/cmTC_4024b.lib" /MACHINE:X64  /machine:x64 cmTC_4024b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4024b.vcxproj -> U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yarjoz\\Debug\\cmTC_4024b.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_4024b.dir\\Debug\\cmTC_4024b.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_4024b.dir\\Debug\\cmTC_4024b.tlog\\cmTC_4024b.lastbuildstate".
+        Projeto de compilação pronto "U:\\Meu Drive\\4º periodo\\Concepção de veículos elétricos\\Concepcao-veiculos-inteligentes\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yarjoz\\cmTC_4024b.vcxproj" (destinos padrão).
+        
+        Compilação com êxito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:01.21
+        
+      exitCode: 0
+...

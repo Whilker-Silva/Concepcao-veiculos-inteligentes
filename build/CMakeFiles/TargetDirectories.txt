@@ -1,0 +1,3 @@
+U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/Concepcao-veiculos-inteligentes.dir
+U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/ALL_BUILD.dir
+U:/Meu Drive/4º periodo/Concepção de veículos elétricos/Concepcao-veiculos-inteligentes/build/CMakeFiles/ZERO_CHECK.dir
