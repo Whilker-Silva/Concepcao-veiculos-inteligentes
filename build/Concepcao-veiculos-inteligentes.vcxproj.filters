@@ -4,6 +4,9 @@
     <ClCompile Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\src\HandTrackingModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\CMakeLists.txt" />

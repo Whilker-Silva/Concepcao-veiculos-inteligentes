@@ -318,6 +318,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\src\Main.cpp" />
+    <ClCompile Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\src\HandTrackingModule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="U:\Meu Drive\4º periodo\Concepção de veículos elétricos\Concepcao-veiculos-inteligentes\build\ZERO_CHECK.vcxproj">
