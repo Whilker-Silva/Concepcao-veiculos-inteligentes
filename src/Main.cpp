@@ -1,53 +1,80 @@
-#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/dnn.hpp>
 
-int main() {
-    // Abre a webcam
-    cv::VideoCapture cap(0);
+using namespace cv;
 
-    // Verifica se a webcam foi aberta com sucesso
-    if (!cap.isOpened()) {
-        std::cerr << "Erro ao abrir a webcam." << std::endl;
-        return -1;
+// Carrega o modelo CNN
+//Net net = readNetFromCaffe("model.caffemodel", "model.prototxt");
+
+// Inicializa a webcam
+VideoCapture cap(0);
+
+// Verifica se a webcam está conectada
+if (!cap.isOpened())
+{
+    cout << "A webcam não está conectada." << endl;
+    return;
+}
+
+// Loop principal
+while (true)
+{
+
+    // Captura uma imagem da webcam
+    Mat image;
+    cap >> image;
+
+    // Aplica um pré-processamento à imagem
+    Mat processedImage = preProcessImage(image);
+
+    // Identifica as placas na imagem
+    vector<int> labels = identifyPlates(processedImage);
+
+    // Imprime os rótulos das placas
+    for (int i = 0; i < labels.size(); i++)
+    {
+        cout << labels[i] << endl;
     }
 
-    // Cria uma janela para exibir o vídeo
-    cv::namedWindow("Webcam", cv::WINDOW_NORMAL);
+    // Espera por um novo frame
+    waitKey(1);
+}
 
-    
-    while (true) {
-        cv::Mat frame;
-        
-        // Captura um frame da webcam
-        cap >> frame;
+// Função para aplicar um pré-processamento à imagem
+Mat preProcessImage(Mat image)
+{
+    // Equaliza o histograma da imagem
+    image = equalizeHist(image);
 
-        // Verifica se o frame foi capturado com sucesso
-        if (frame.empty()) {
-            std::cerr << "Erro ao capturar o frame." << std::endl;
-            break;
-        }
+    // Normaliza a imagem
+    image = normalize(image, 0, 1, NORM_MINMAX);
 
-        // Converte o frame para escala de cinza
-        cv::Mat gray;
-        cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
+    // Reduz o ruído da imagem
+    image = GaussianBlur(image, Size(3, 3), 0);
 
-        // Aplica o filtro Canny
-        cv::Mat edges;
-        cv::Canny(gray, edges, 50, 150);
-       
-        // Exibe o frame com a detecção de corpos e a segmentação de bordas na janela
-        cv::imshow("Webcam", edges);
+    return image;
+}
 
-        // Aguarda 30 milissegundos. Se a tecla 'ESC' for pressionada, encerra o loop.
-        if (cv::waitKey(30) == 27) {
-            break;
-        }
+// Função para identificar as placas na imagem
+vector<int> identifyPlates(Mat image)
+{
+    // Converte a imagem para o formato de entrada da CNN
+    Mat inputImage = blobFromImage(image, 1.0, Size(32, 32), Scalar(0, 0, 0), false);
+
+    // Ativa a CNN
+    net.setInput(inputImage);
+
+    // Obtém as previsões da CNN
+    Mat predictions = net.forward();
+
+    // Converte as previsões para rótulos
+    vector<int> labels;
+    for (int i = 0; i < predictions.rows; i++)
+    {
+        labels.push_back(predictions.at<float>(i, 0));
     }
 
-    // Libera os recursos da webcam
-    cap.release();
-
-    // Fecha a janela
-    cv::destroyAllWindows();
-
-    return 0;
+    return labels;
 }
